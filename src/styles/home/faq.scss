@@ -1,0 +1,20 @@
+.faq {
+  margin-bottom: 150px;
+
+  .faq-title {
+    @include h2;
+    margin-bottom: 50px;
+  }
+
+  .faq-item:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  .faq-item {
+
+    span {
+      font-weight: 700;
+      line-height: 2;
+    }
+  }
+}

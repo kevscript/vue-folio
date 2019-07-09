@@ -1,0 +1,9 @@
+body {
+  width: 100%;
+  @include text 
+}
+
+.container {
+  width: 83%;
+  margin: 0 auto;
+}

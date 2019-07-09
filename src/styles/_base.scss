@@ -1,0 +1,41 @@
+// IMPORT GOOGLE FONTS
+@import url("https://fonts.googleapis.com/css?family=Lobster:400|Roboto:400,700|Source+Sans+Pro:400,700");
+
+// COLORS
+$clr-primary: rgb(138, 100, 212);
+$clr-dark: #333;
+$clr-white: #fff;
+$clr-grey: #707070;
+$clr-secondary: #2EE59D;
+
+// FONT MIXINS
+@mixin h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 120px;
+  color: $clr-primary;
+}
+
+@mixin h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  color: $clr-primary;
+}
+
+@mixin h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 42px;
+  color: $clr-primary;
+}
+
+@mixin h4 {
+  font-family: 'Source Sans Pro', 'Roboto', sans-serif;
+  font-size: 26px;
+  color: $clr-dark;
+}
+
+@mixin text {
+  font-family: 'Source Sans Pro', 'Roboto', sans-serif;
+  font-size: 16px;
+  color: $clr-dark;
+  line-height: 1.4;
+}

@@ -1,0 +1,18 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 150px;
+  margin-bottom: 150px;
+
+  .hero-title {
+    @include h1;
+  }
+
+  .hero-subtitle {
+    @include h4;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.what {
+  margin-bottom: 150px;
+
+  .what-title {
+    @include h2;
+    margin-bottom: 32px;
+  }
+
+  .what-content {
+    margin-bottom: 50px;
+
+    p {
+      margin-bottom: 22px;
+
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .what-skills {
+    margin-bottom: 50px;
+
+    li {
+      margin-bottom: 25px;
+      list-style: none;
+
+      span {
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 2;
+      }
+    }
+  }
+}

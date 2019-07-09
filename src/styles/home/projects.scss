@@ -1,0 +1,19 @@
+.projects {
+  margin-bottom: 150px;
+
+  .projects-title {
+    @include h2;
+    margin-bottom: 50px;
+  }
+
+  .project:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  .project {
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 1px solid black;
+  }
+
+}

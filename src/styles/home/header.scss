@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  padding: 0 8.5%;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  .header-logo {
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+    display: inline-block;
+
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .header-burger {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    span {
+      display: block;
+      width: 30px;
+      height: 4px;
+      background: $clr-dark;
+    }
+  }
+}
