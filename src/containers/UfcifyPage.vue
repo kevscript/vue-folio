@@ -8,7 +8,7 @@
         :skills='["React", "Redux", "Node", "Cheerio"]'
         :content='["Ufcify is an application that uses UFC data to provide you with relevant informations about the organisation and its fighters.", "Its built on an server that scrapes the data from the official api."]' />
 
-      <!-- <Gallery :images="['tripeo/tripeo1.png', 'tripeo/tripeo2.png', 'tripeo/tripeo3.png', 'tripeo/tripeo4.png']" /> -->
+      <Gallery :images="['ufcify/ufcify.png']" /> -->
 
     </div>
   </div>

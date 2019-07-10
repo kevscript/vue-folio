@@ -8,7 +8,7 @@
         :skills='["Javascript", "ES6", "Node", "Express"]'
         :content='["Tempeo is a geo-climatic application monitoring weather around the world.", "Its built on multiple api layers. It provides an interactive map which can be used to target specific locations, and a search bar with autocompletion for cities and addresses."]' />
 
-      <!-- <Gallery :images="['tripeo/tripeo1.png', 'tripeo/tripeo2.png', 'tripeo/tripeo3.png', 'tripeo/tripeo4.png']" /> -->
+      <Gallery :images="['tempeo/tempeo.png']" /> -->
 
     </div>
   </div>

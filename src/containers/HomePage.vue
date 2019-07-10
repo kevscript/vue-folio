@@ -73,11 +73,13 @@
           </router-link>
           <router-link to="/project/ufcify" class="project-container">
             <div class="project">
-              <img src="" alt="">
+              <img src="../assets/ufcify/ufcify.png" alt="">
             </div>
           </router-link>
           <router-link to="/project/tempeo" class="project-container">
-            <div class="project"></div>
+            <div class="project">
+              <img src="../assets/tempeo/tempeo.png" alt="">
+            </div>
           </router-link>
         </div>
       </section>
