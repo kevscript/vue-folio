@@ -1,15 +1,15 @@
 <template>
   <section class="header">
-    <a class="header-logo" href="/">
+    <router-link to="/" class="header-logo">
       <img src="../assets/logo.svg" alt="">
-    </a>
+    </router-link>
     <div class="header-pagination">
-      <a class="pagination-prev" :href="'project/' + prev">
+      <router-link :to="prev" class="pagination-prev">
         <img src="../assets/arrow.svg" alt="previous project">
-      </a>
-      <a class="pagination-next" :href="'project/' + next">
+      </router-link>
+      <router-link :to="next" class="pagination-next">
         <img src="../assets/arrow.svg" alt="next project">
-      </a>
+      </router-link>
     </div>
   </section>
 </template>
