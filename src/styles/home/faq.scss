@@ -6,11 +6,22 @@
     margin-bottom: 50px;
   }
 
+  .faq-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   .faq-item:not(:last-child) {
     margin-bottom: 50px;
   }
 
   .faq-item {
+    max-width: 380px;
+
+    @media only screen and (min-width: 720px) {
+      margin: 0 50px 50px 0;
+    }
 
     span {
       font-weight: 700;

@@ -1,0 +1,30 @@
+.header {
+
+  .header-pagination {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .pagination-prev,
+    .pagination-next {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      margin-left: 30px;
+      cursor: pointer;
+
+      img {
+        display: block;
+        height: 25px;
+      }
+    } 
+
+    .pagination-next {
+
+      img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.presentation {
+  padding-top: 150px;
+  margin-bottom: 100px;
+
+  .presentation-title {
+    @include h3;
+    line-height: 2;
+  }
+
+  .presentation-subtitle {
+    font-weight: 700;
+    margin-bottom: 35px;
+  }
+
+  .presentation-content {
+    margin-bottom: 50px;
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  .presentation-links {
+    display: flex;
+
+    .link {
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      border: none;
+      border-radius: 50px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      text-transform: uppercase;
+      font-size: 14px;
+      width: 130px;
+      height: 40px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-right: 20px;
+      transition: all 0.2s ease-in-out 0s;
+
+      &:hover {
+        background: $clr-dark;
+        color: $clr-white;
+        transform: translateY(-5px);
+        background-color: #2EE59D;
+        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
+
+        .link-logo {
+          fill: $clr-white;
+        }
+      }
+
+      .link-logo {
+        height: 15px;
+        transition: all 0.2s ease-in-out 0s;
+      }
+    }
+  }
+
+}
