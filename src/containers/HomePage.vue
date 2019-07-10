@@ -56,21 +56,29 @@
       <section class="projects">
         <h2 class="projects-title">Projects</h2>
         <div class="projects-list">
-          <div class="project-container">
+          <router-link to="/project/tripeo" class="project-container">
+            <div class="project">
+              <img src="../assets/tripeo/tripeo4.png" alt="">
+            </div>
+          </router-link>
+          <router-link to="project/bingewatcher" class="project-container">
+            <div class="project">
+              <img src="../assets/binge/binge1.png" alt="">
+            </div>
+          </router-link>
+          <router-link to="/project/youtheme" class="project-container">
+            <div class="project">
+              <img src="../assets/youtheme/youtheme2.png" alt="">
+            </div>
+          </router-link>
+          <router-link to="/project/ufcify" class="project-container">
+            <div class="project">
+              <img src="" alt="">
+            </div>
+          </router-link>
+          <router-link to="/project/tempeo" class="project-container">
             <div class="project"></div>
-          </div>
-          <div class="project-container">
-            <div class="project"></div>
-          </div>
-          <div class="project-container">
-            <div class="project"></div>
-          </div>
-          <div class="project-container">
-            <div class="project"></div>
-          </div>
-          <div class="project-container">
-            <div class="project"></div>
-          </div>
+          </router-link>
         </div>
       </section>
 
