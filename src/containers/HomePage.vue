@@ -6,9 +6,7 @@
           <img src="../assets/logo.svg" alt="">
         </div>
         <div class="header-burger">
-          <span></span>
-          <span></span>
-          <span></span>
+          2019
         </div>
       </section>
 
