@@ -6,7 +6,7 @@
           <img src="../assets/logo.svg" alt="">
         </div>
         <div class="header-burger">
-          2019
+          <router-link to="project/tripeo">Projects</router-link>
         </div>
       </section>
 
