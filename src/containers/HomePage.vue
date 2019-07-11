@@ -5,9 +5,8 @@
         <div class="header-logo">
           <img src="../assets/logo.svg" alt="">
         </div>
-        <div class="header-burger">
-          <router-link to="project/tripeo">Projects</router-link>
-        </div>
+        <router-link to="project/tripeo" class="header-link">Projects</router-link>
+
       </section>
 
       <section class="hero">

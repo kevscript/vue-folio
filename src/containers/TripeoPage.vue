@@ -7,7 +7,7 @@
     name="Tripeo"
     :skills='["React", "Redux", "styled-components", "Node", "Jest", "Enzyme"]'
     :content='["Tripeo is a mobile-friendly application that helps you anticipate weather along your trips.", "You create a day-by-day roadmap of your journey, and the app takes care of the rest."]'
-    :images="['tripeo/tripeo1.png', 'tripeo/tripeo2.png', 'tripeo/tripeo3.png', 'tripeo/tripeo4.png']"
+    :images="['tripeo/tripeo2.png', 'tripeo/tripeo3.png', 'tripeo/tripeo4.png']"
   />
 </template>
 

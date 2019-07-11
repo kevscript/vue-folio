@@ -38,4 +38,18 @@
       background: $clr-dark;
     }
   }
+
+  .header-link {
+    padding: 5px 15px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background: $clr-primary;
+      color: $clr-white;
+    }
+  }
 }
