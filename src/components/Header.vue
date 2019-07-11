@@ -1,5 +1,5 @@
 <template>
-  <section class="header">
+  <section class="header-project">
     <router-link to="/" class="header-logo">
       <img src="../assets/logo.svg" alt="">
     </router-link>
