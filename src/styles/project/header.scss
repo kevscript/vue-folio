@@ -1,5 +1,12 @@
 .header {
+  position: fixed;
+  z-index: 5;
 
+  @media only screen and (max-width: 1200px) {
+    position: relative;
+    padding: 0;
+  }
+  
   .header-pagination {
     display: flex;
     justify-content: space-between;

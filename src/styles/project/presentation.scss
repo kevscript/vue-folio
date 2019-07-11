@@ -1,6 +1,6 @@
 .presentation {
-  padding-top: 150px;
-  margin-bottom: 100px;
+  position: fixed;
+  padding-top: 70px;
 
   .presentation-title {
     @include h3;
