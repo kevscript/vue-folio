@@ -2,13 +2,15 @@
   width: 100%;
   padding: 0 8.5%;
   height: 80px;
-  position: absolute;
+  position: fixed;
+  background: $clr-white;
   top: 0;
   left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  z-index: 999;
 
   .header-logo {
     cursor: pointer;

@@ -7,7 +7,7 @@
     name="YouTheme"
     :skills='["React", "Node", "Express", "Material-UI", "Firebase"]'
     :content='["Youtheme helps you to customize your experience by allowing you to sort channels by specific themes.", "It uses Firebase for authentification and storing users data."]'
-    :images="['youtheme/youtheme2.png', 'youtheme/youtheme1.png', 'youtheme/youtheme3.png']"
+    :images="['youtheme/youtheme2.png']"
   />
 </template>
 
