@@ -2,14 +2,13 @@
   <div class="container">
 
     <Header :prev="prev" :next="next" />
-
+    
     <div class="flex-container">
       <Presentation :name="name" :demo="demo" :repo="repo" :skills="skills" :content="content" />
       <Gallery :images="images" />
     </div>
 
   </div>
-
 </template>
 
 <script>

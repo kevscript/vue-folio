@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import App from './App.vue';
 import VueRouter from 'vue-router';
+
 import HomePage from './containers/HomePage';
 import TripeoPage from './containers/TripeoPage';
 import TempeoPage from './containers/TempeoPage';

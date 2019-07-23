@@ -1,9 +1,10 @@
 .header-project {
-  position: fixed;
-  z-index: 999;
   width: 100%;
   padding: 0 8.5%;
+  position: fixed;
+  z-index: 999;
   height: 80px;
+  background: $clr-white;
   position: fixed;
   top: 0;
   left: 0;
@@ -11,7 +12,6 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  background: $clr-white;
 
   .header-logo {
     cursor: pointer;

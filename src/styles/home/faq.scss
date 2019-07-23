@@ -4,6 +4,7 @@
   .faq-title {
     @include h2;
     margin-bottom: 50px;
+    color: $clr-primary;
   }
 
   .faq-list {

@@ -3,7 +3,7 @@
     <h3 class="presentation-title">{{ name }}</h3>
     <p class="presentation-subtitle">{{ skills.join(' / ') }}</p>
     <div class="presentation-content">
-      <p v-for="para in content">
+      <p v-for="(para, index) in content" :key="index">
         {{ para }}
       </p>
     </div>

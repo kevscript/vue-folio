@@ -3,6 +3,7 @@
   padding: 0 8.5%;
   height: 80px;
   position: fixed;
+  z-index: 999;
   background: $clr-white;
   top: 0;
   left: 0;
@@ -10,7 +11,6 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  z-index: 999;
 
   .header-logo {
     cursor: pointer;
@@ -44,7 +44,7 @@
   .header-link {
     padding: 5px 15px;
     text-decoration: none;
-    color: inherit;
+    color: $clr-primary;
     font-weight: 700;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
