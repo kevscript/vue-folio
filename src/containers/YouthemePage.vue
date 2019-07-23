@@ -6,7 +6,7 @@
     repo="https://github.com/kevscript/youtheme" 
     name="YouTheme"
     :skills='["React", "Node", "Express", "Material-UI", "Firebase"]'
-    :content='["Youtheme helps you to customize your experience by allowing you to sort channels by specific themes.", "It uses Firebase for authentification and storing users data."]'
+    :content='["Youtheme helps you customize your experience by allowing you to sort Youtube channels by specific themes.", "It uses Firebase for authentification and storing user data."]'
     :images="['youtheme/youtheme2.png']"
   />
 </template>

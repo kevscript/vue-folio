@@ -21,7 +21,7 @@
         name: "Tripeo",
         skills: ["React", "Redux", "styled-components", "Node", "Jest", "Enzyme"],
         content: [
-          "Tripeo is a mobile-friendly application that helps you anticipate weather along your trips.",
+          "Tripeo is a mobile friendly application that helps you anticipate weather along your trips.",
           "You create a day-by-day roadmap of your journey, and the app takes care of the rest."
         ],
         images: [
