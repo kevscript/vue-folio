@@ -52,38 +52,45 @@
 
       <section class="projects">
         <h2 class="projects-title">Projects</h2>
-        <div class="projects-list">
-          <router-link to="/project/sniplib" class="project-container">
-            <div class="project">
-              <img src="../assets/sniplib/sniplib1.jpg" alt="">
+        <div class="projects-container">
+          <router-link to="/project/sniplib" class="project">
+            <div class="mask">
+              <span>SnipLib</span>
             </div>
+            <img src="../assets/sniplib/sniplib1.jpg" alt="">
           </router-link>
-          <router-link to="/project/tripeo" class="project-container">
-            <div class="project">
-              <img src="../assets/tripeo/tripeo4.png" alt="">
+          <router-link to="/project/tripeo" class="project">
+            <div class="mask">
+              <span>Tripeo</span>
             </div>
+            <img src="../assets/tripeo/tripeo4.png" alt="">
           </router-link>
-          <router-link to="project/bingewatcher" class="project-container">
-            <div class="project">
-              <img src="../assets/binge/binge1.png" alt="">
+          <router-link to="project/bingewatcher" class="project">
+            <div class="mask">
+              <span>BingeWatcher</span>
             </div>
+            <img src="../assets/binge/binge1.png" alt="">
           </router-link>
-          <router-link to="/project/youtheme" class="project-container">
-            <div class="project">
-              <img src="../assets/youtheme/youtheme2.png" alt="">
+          <router-link to="/project/youtheme" class="project">
+            <div class="mask">
+              <span>Youtheme</span>
             </div>
+            <img src="../assets/youtheme/youtheme2.png" alt="">
           </router-link>
-          <router-link to="/project/ufcify" class="project-container">
-            <div class="project">
-              <img src="../assets/ufcify/ufcify.png" alt="">
+          <router-link to="/project/ufcify" class="project">
+            <div class="mask">
+              <span>Ufcify</span>
             </div>
+            <img src="../assets/ufcify/ufcify.png" alt="">
           </router-link>
-          <router-link to="/project/tempeo" class="project-container">
-            <div class="project">
-              <img src="../assets/tempeo/tempeo.png" alt="">
+          <router-link to="/project/tempeo" class="project">
+            <div class="mask">
+              <span>Tempeo</span>
             </div>
+            <img src="../assets/tempeo/tempeo.png" alt="">
           </router-link>
         </div>
+
       </section>
 
       <section class="faq">
