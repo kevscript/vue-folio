@@ -53,6 +53,11 @@
       <section class="projects">
         <h2 class="projects-title">Projects</h2>
         <div class="projects-list">
+          <router-link to="/project/sniplib" class="project-container">
+            <div class="project">
+              <img src="../assets/sniplib/sniplib1.jpg" alt="">
+            </div>
+          </router-link>
           <router-link to="/project/tripeo" class="project-container">
             <div class="project">
               <img src="../assets/tripeo/tripeo4.png" alt="">

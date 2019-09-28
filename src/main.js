@@ -8,6 +8,7 @@ import TempeoPage from './containers/TempeoPage';
 import BingePage from './containers/BingePage';
 import YouthemePage from './containers/YouthemePage';
 import UfcifyPage from './containers/UfcifyPage';
+import SniplibPage from './containers/SniplibPage';
 
 Vue.use(VueRouter)
 
@@ -16,6 +17,7 @@ Vue.config.productionTip = false
 const router = new VueRouter({
   routes: [
     { path: '/', component: HomePage },
+    { path: '/project/sniplib', component: SniplibPage },
     { path: '/project/tripeo', component: TripeoPage },
     { path: '/project/bingewatcher', component: BingePage },
     { path: '/project/youtheme', component: YouthemePage },

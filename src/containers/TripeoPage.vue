@@ -14,7 +14,7 @@
     },
     data() {
       return {
-        prev: "tempeo",
+        prev: "sniplib",
         next: "bingewatcher",
         demo: "https://tripeo.herokuapp.com/",
         repo: "https://github.com/kevscript/tripeo",
