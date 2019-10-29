@@ -4,7 +4,7 @@
     <Header :prev="prev" :next="next" />
     
     <div class="flex-container">
-      <Presentation :name="name" :demo="demo" :repo="repo" :skills="skills" :content="content" />
+      <Presentation :name="name" :demo="demo" :repo="repo" :skills="skills" :content="content" :date="date" />
       <Gallery :images="images" />
     </div>
 
@@ -31,7 +31,8 @@
       name: String,
       skills: Array,
       content: Array,
-      images: Array
+      images: Array,
+      date: String
     }
   }
 </script>

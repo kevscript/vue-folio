@@ -1,6 +1,6 @@
 <template>
   <ProjectPage :prev="this.prev" :next="this.next" :demo="this.demo" :repo="this.repo" :name="this.name"
-    :skills="this.skills" :content="this.content" :images="this.images" />
+    :skills="this.skills" :content="this.content" :images="this.images" :date="this.date" />
 </template>
 
 
@@ -28,7 +28,8 @@
           'tripeo/tripeo2.png',
           'tripeo/tripeo3.png',
           'tripeo/tripeo4.png'
-        ]
+        ],
+        date: "Jun. 2019"
       }
     }
   }

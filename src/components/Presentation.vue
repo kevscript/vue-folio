@@ -1,6 +1,7 @@
 <template>
   <section class="presentation">
-    <h3 class="presentation-title">{{ name }}</h3>
+    <span>{{ date }}</span>
+    <h2 class="presentation-title">{{ name }}</h2>
     <p class="presentation-subtitle">{{ skills.join(' / ') }}</p>
     <div class="presentation-content">
       <p v-for="(para, index) in content" :key="index">
@@ -53,7 +54,8 @@
       repo: String,
       name: String,
       skills: Array,
-      content: Array
+      content: Array,
+      date: String
     }
   }
 </script>

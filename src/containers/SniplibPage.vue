@@ -1,6 +1,6 @@
 <template>
   <ProjectPage :prev="this.prev" :next="this.next" :demo="this.demo" :repo="this.repo" :name="this.name"
-    :skills="this.skills" :content="this.content" :images="this.images" />
+    :skills="this.skills" :content="this.content" :images="this.images" :date="this.date" />
 </template>
 
 
@@ -26,7 +26,8 @@
         ],
         images: [
           'sniplib/sniplib1.jpg',
-        ]
+        ],
+        date: "Sept. 2019"
       }
     }
   }

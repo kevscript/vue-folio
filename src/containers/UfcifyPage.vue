@@ -8,6 +8,7 @@
     :skills='["React", "Redux", "Node", "Cheerio"]'
     :content='["Ufcify is an application that uses UFC data to provide you with relevant informations about the organisation and it fighters.", "Its built on an server that scrapes the data from the official api."]'
     :images="['ufcify/ufcify.png']"
+    date="Dec. 2018"
   />
 </template>
 

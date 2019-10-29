@@ -8,6 +8,7 @@
     :skills='["React", "Node", "Express", "Material-UI", "Firebase"]'
     :content='["Youtheme helps you customize your experience by allowing you to sort Youtube channels by specific themes.", "It uses Firebase for authentification and storing user data."]'
     :images="['youtheme/youtheme2.png']"
+    date="Feb. 2019"
   />
 </template>
 

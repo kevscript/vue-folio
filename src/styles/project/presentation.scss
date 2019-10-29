@@ -3,8 +3,13 @@
   padding-top: 100px;
 
   .presentation-title {
-    @include h3;
-    line-height: 2;
+    @include h2;
+    line-height: 1.5;
+    margin-top: 20px;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 50px;
+    }
   }
 
   .presentation-subtitle {
