@@ -35,6 +35,11 @@
       .mask {
         opacity: 0.82;
         transition: all 0.3s;
+
+        h3 {
+          opacity: 1;
+          transition: all 0.3s;
+        }
         
         span {
           opacity: 1;
@@ -57,12 +62,22 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       
-      span {
+      h3 {
         z-index: 999;
-        position: absolute;
+        position: relative;
         font-size: 50px;
         font-weight: 600;
+        opacity: 0;
+        transition: all 0.3s;
+        color: #fff;
+      }
+
+      span {
+        z-index: 999;
+        position: relative;
+        font-size: 25px;
         opacity: 0;
         transition: all 0.3s;
         color: #fff;
@@ -76,8 +91,12 @@
       margin: 25px 0;
 
       .mask {
-        span {
+        h3 {
           font-size: 30px;
+        }
+
+        span {
+          font-size: 16px;
         }
       }
     }

@@ -55,37 +55,43 @@
         <div class="projects-container">
           <router-link to="/project/sniplib" class="project">
             <div class="mask">
-              <span>SnipLib</span>
+              <h3>SnipLib</h3>
+              <span>Sept. 2019</span>
             </div>
             <img src="../assets/sniplib/sniplib1.jpg" alt="">
           </router-link>
           <router-link to="/project/tripeo" class="project">
             <div class="mask">
-              <span>Tripeo</span>
+              <h3>Tripeo</h3>
+              <span>Jun. 2019</span>
             </div>
             <img src="../assets/tripeo/tripeo4.png" alt="">
           </router-link>
           <router-link to="project/bingewatcher" class="project">
             <div class="mask">
-              <span>BingeWatcher</span>
+              <h3>BingeWatcher</h3>
+              <span>Apr. 2019</span>
             </div>
             <img src="../assets/binge/binge1.png" alt="">
           </router-link>
           <router-link to="/project/youtheme" class="project">
             <div class="mask">
-              <span>Youtheme</span>
+              <h3>Youtheme</h3>
+              <span>Feb. 2019</span>
             </div>
             <img src="../assets/youtheme/youtheme2.png" alt="">
           </router-link>
           <router-link to="/project/ufcify" class="project">
             <div class="mask">
-              <span>Ufcify</span>
+              <h3>Ufcify</h3>
+              <span>Dec. 2018</span>
             </div>
             <img src="../assets/ufcify/ufcify.png" alt="">
           </router-link>
           <router-link to="/project/tempeo" class="project">
             <div class="mask">
-              <span>Tempeo</span>
+              <h3>Tempeo</h3>
+              <span>Sept. 2018</span>
             </div>
             <img src="../assets/tempeo/tempeo.png" alt="">
           </router-link>
