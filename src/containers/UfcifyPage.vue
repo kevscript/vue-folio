@@ -1,6 +1,6 @@
 <template>
   <ProjectPage 
-    prev="youtheme" 
+    prev="bingewatcher" 
     next="tempeo"
     demo="https://ufcify.herokuapp.com/" 
     repo="https://github.com/kevscript/ufcify" 

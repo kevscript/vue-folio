@@ -14,7 +14,7 @@
     },
     data() {
       return {
-        prev: "tempeo",
+        prev: "youtheme",
         next: "tripeo",
         demo: "https://sniplib.netlify.com/",
         repo: "https://github.com/kevscript/sniplib-v2",

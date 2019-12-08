@@ -53,6 +53,13 @@
       <section class="projects">
         <h2 class="projects-title">Projects</h2>
         <div class="projects-container">
+          <router-link to="/project/youtheme" class="project">
+            <div class="mask">
+              <h3>Youtheme</h3>
+              <span>Dec. 2019</span>
+            </div>
+            <img src="../assets/youtheme/youtheme.jpg" alt="">
+          </router-link>
           <router-link to="/project/sniplib" class="project">
             <div class="mask">
               <h3>SnipLib</h3>
@@ -73,13 +80,6 @@
               <span>Apr. 2019</span>
             </div>
             <img src="../assets/binge/binge1.png" alt="">
-          </router-link>
-          <router-link to="/project/youtheme" class="project">
-            <div class="mask">
-              <h3>Youtheme</h3>
-              <span>Feb. 2019</span>
-            </div>
-            <img src="../assets/youtheme/youtheme.jpg" alt="">
           </router-link>
           <router-link to="/project/ufcify" class="project">
             <div class="mask">

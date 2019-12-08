@@ -1,12 +1,12 @@
 <template>
   <ProjectPage 
-    prev="bingewatcher" 
-    next="ufcify"
+    prev="tempeo" 
+    next="sniplib"
     demo="https://youtheme.herokuapp.com/" 
     repo="https://github.com/kevscript/youtheme" 
     name="YouTheme"
-    :skills='["React", "Node", "Express", "Material-UI", "Firebase"]'
-    :content='["Youtheme helps you customize your experience by allowing you to sort Youtube channels by specific themes.", "It uses Firebase for authentification and storing user data."]'
+    :skills='["React", "Node", "GraphQL", "Apollo", "MongoDB", "styled-components"]'
+    :content='["Youtheme is a youtube subscriptions sorter, allowing you to create your own feeds by custom themes.", "It uses Apollo on the front and back of the application."]'
     :images="['youtheme/youtheme.jpg']"
     date="Feb. 2019"
   />

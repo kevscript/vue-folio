@@ -1,7 +1,7 @@
 <template>
   <ProjectPage 
     prev="tripeo" 
-    next="youtheme" 
+    next="ufcify" 
     demo="https://binge-watcher.netlify.com/"
     repo="https://github.com/kevscript/binge-watcher" 
     name="Binge Watcher"
