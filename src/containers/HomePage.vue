@@ -79,7 +79,7 @@
               <h3>Youtheme</h3>
               <span>Feb. 2019</span>
             </div>
-            <img src="../assets/youtheme/youtheme2.png" alt="">
+            <img src="../assets/youtheme/youtheme.jpg" alt="">
           </router-link>
           <router-link to="/project/ufcify" class="project">
             <div class="mask">
