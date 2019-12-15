@@ -8,7 +8,7 @@
     :skills='["React", "Node", "GraphQL", "Apollo", "MongoDB", "styled-components"]'
     :content='["Youtheme is a youtube subscriptions sorter, allowing you to create your own feeds by custom themes.", "It uses Apollo on the front and back of the application."]'
     :images="['youtheme/youtheme.jpg']"
-    date="Feb. 2019"
+    date="Dec. 2019"
   />
 </template>
 
