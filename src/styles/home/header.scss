@@ -41,6 +41,11 @@
     }
   }
 
+  .header-menu {
+    display: flex;
+    flex-direction: row;
+  }
+
   .header-link {
     padding: 5px 15px;
     text-decoration: none;
@@ -48,10 +53,34 @@
     font-weight: 700;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
+    margin-right: 15px;
 
     &:hover {
-      background: $clr-primary;
-      color: $clr-white;
+      border: 1px solid $clr-primary;
+    }
+  }
+
+
+  .header-anchor {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    color: $clr-primary;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
+    
+    &:hover {
+      border: 1px solid $clr-primary;
+    }
+
+    img {
+      width: auto;
+      height: 14px;
+      margin-left: 10px;
     }
   }
 }

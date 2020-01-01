@@ -5,8 +5,13 @@
         <div class="header-logo">
           <img src="../assets/logo.svg" alt="">
         </div>
-        <router-link to="project/tripeo" class="header-link">Projects</router-link>
-
+        <div class="header-menu">
+          <router-link to="project/youtheme" class="header-link">Projects</router-link>
+          <a href="./resume.pdf" download="Kevin Ostafinski - CV Front-End Developer" class="header-anchor">
+            CV
+            <img src="../assets/download.svg" alt="">
+          </a>
+        </div>
       </section>
 
       <section class="hero">
