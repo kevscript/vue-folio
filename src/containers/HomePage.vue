@@ -21,35 +21,51 @@
       </section>
 
       <section class="what">
-        <h2 class="what-title">What I do</h2>
         <div class="what-flex">
           <div class="what-content">
-            <p>Front-End developer with <span>2+ years</span> of experience in web development.</p>
-            <p>Proficient within the Javascript ecosystem, currently specializing in <span>React</span>.</p>
+            <h2 class="what-title">What I do</h2>
+            <p>Front-End developer proficient with the Javascript ecosystem, currently specializing in
+              <span>React</span>.</p>
             <p>I'm able to integrate pixel perfect designs and build interactive web applications from the ground up,
               following the latest standards and technologies.</p>
             <p>Eager to improve and expand my skillset, I'm <span>looking for opportunities</span> to collaborate with
               other
               developers
               on
-              exciting projects and share knowledge with our great community :)</p>
+              exciting projects and share knowledge with the community.</p>
           </div>
           <div class="what-skills">
             <li>
-              <span>Javascript</span>
-              <p>React / Redux / ES6 / Node</p>
+              <span>Frontend</span>
+              <p>React / ES6 / Vue</p>
             </li>
             <li>
-              <span>Markup</span>
-              <p>HTML / CSS / Sass / styled-components</p>
+              <span>Backend</span>
+              <p>Node</p>
+            </li>
+            <li>
+              <span>State Management</span>
+              <p>Redux / Hooks / Apollo</p>
+            </li>
+            <li>
+              <span>Styling</span>
+              <p>CSS / Sass / styled-components</p>
+            </li>
+            <li>
+              <span>Testing</span>
+              <p>Jest / Enzyme / Testing-Library</p>
+            </li>
+            <li>
+              <span>Data</span>
+              <p>GraphQL / MongoDB</p>
             </li>
             <li>
               <span>Workflow</span>
-              <p>Git / npm / Webpack / Jest / Enzyme</p>
+              <p>Git / npm / webpack</p>
             </li>
             <li>
-              <span>Tooling</span>
-              <p>VS Code / Adobe XD / Photoshop</p>
+              <span>Prototyping</span>
+              <p>Adobe XD / Photoshop</p>
             </li>
           </div>
         </div>
