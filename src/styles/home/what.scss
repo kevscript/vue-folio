@@ -1,5 +1,5 @@
 .what {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 
   .what-title {
     @include h2;
@@ -21,9 +21,12 @@
 
   .what-skills {
     margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
 
     li {
-      margin-bottom: 25px;
+      margin: 0 40px 20px 0;
+      width: 210px;
       list-style: none;
 
       span {
@@ -41,7 +44,14 @@
     .what-flex {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+    }
+
+    .what-content {
+      width: 50%;
+    }
+
+    .what-skills {
+      display: initial;
     }
   }
 }

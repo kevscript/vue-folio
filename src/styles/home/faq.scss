@@ -1,5 +1,5 @@
 .faq {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 
   .faq-title {
     @include h2;
@@ -28,6 +28,7 @@
       display: inline-block;
       font-weight: 700;
       margin-bottom: 10px;
+      color: $clr-primary;
     }
   }
 }
