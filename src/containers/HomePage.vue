@@ -150,7 +150,7 @@
     </div>
     <section class="footer">
       <p>kevinostafinski@gmail.com</p>
-      <p>Kevin Ostafinski - Portfolio © copyright 2020</p>
+      <p>Kevin Ostafinski - Portfolio</p>
     </section>
   </div>
 </template>
