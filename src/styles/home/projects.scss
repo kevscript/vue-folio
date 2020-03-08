@@ -86,17 +86,21 @@
 
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1150px) {
     .project {
       margin: 25px 0;
+    }
+  }
 
+  @media (max-width: 900px) {
+    .project {
       .mask {
         opacity: 0.8;
         h3 {
           font-size: 30px;
           opacity: 1;
         }
-
+  
         span {
           font-size: 16px;
           opacity: 1;
