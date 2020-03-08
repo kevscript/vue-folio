@@ -18,7 +18,7 @@
             transform="translate(0 -5.329)" />
         </svg>
       </a>
-      <a :href="demo" class="link" target="_blank" rel="noopener">
+      <a :href="demo ? demo : null" :class="demo ? 'link' : 'link-disabled'" target="_blank" rel="noopener">
         Live Demo
         <svg version="1.1" class="link-logo" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px"
