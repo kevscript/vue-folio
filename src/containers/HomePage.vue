@@ -8,7 +8,7 @@
         <div class="header-menu">
           <router-link to="project/youtheme" class="header-link">Projects</router-link>
           <a href="./resume.pdf" download="Kevin Ostafinski - CV Front-End Developer" class="header-anchor">
-            CV
+            Resume
             <img src="../assets/download.svg" alt="">
           </a>
         </div>

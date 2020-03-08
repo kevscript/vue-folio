@@ -17,10 +17,16 @@
     height: 30px;
     width: auto;
     display: inline-block;
+    transition: transform 0.2s ease-in-out;
 
     img {
       height: 100%;
       width: auto;
+    }
+
+    &:hover {
+      transform: rotate(90deg);
+      transition: transform 0.2s ease-in-out;
     }
   }
 
@@ -58,6 +64,7 @@
 
     &:hover {
       border: 1px solid $clr-primary;
+      color: $clr-secondary;
     }
   }
 
@@ -75,6 +82,7 @@
     
     &:hover {
       border: 1px solid $clr-primary;
+      color: $clr-secondary;
     }
 
     img {
