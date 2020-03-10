@@ -6,7 +6,7 @@
           <img src="../assets/logo.svg" alt="">
         </div>
         <div class="header-menu">
-          <router-link to="project/youtheme" class="header-link">Projects</router-link>
+          <router-link to="projects/youtheme" class="header-link">Projects</router-link>
           <a href="./resume.pdf" download="Kevin Ostafinski - CV Front-End Developer" class="header-anchor">
             Resume
             <img src="../assets/download.svg" alt="">
@@ -74,42 +74,42 @@
       <section class="projects">
         <h2 class="projects-title">Projects</h2>
         <div class="projects-container">
-          <router-link to="/project/youtheme" class="project">
+          <router-link to="/projects/youtheme" class="project">
             <div class="mask">
               <h3>Youtheme</h3>
               <span>Dec. 2019</span>
             </div>
             <img src="../assets/youtheme/youtheme.jpg" alt="">
           </router-link>
-          <router-link to="/project/sniplib" class="project">
+          <router-link to="/projects/sniplib" class="project">
             <div class="mask">
               <h3>SnipLib</h3>
               <span>Sept. 2019</span>
             </div>
             <img src="../assets/sniplib/sniplib1.jpg" alt="">
           </router-link>
-          <router-link to="/project/tripeo" class="project">
+          <router-link to="/projects/tripeo" class="project">
             <div class="mask">
               <h3>Tripeo</h3>
               <span>Jun. 2019</span>
             </div>
             <img src="../assets/tripeo/tripeo4.png" alt="">
           </router-link>
-          <router-link to="project/bingewatcher" class="project">
+          <router-link to="projects/bingewatcher" class="project">
             <div class="mask">
               <h3>BingeWatcher</h3>
               <span>Apr. 2019</span>
             </div>
             <img src="../assets/binge/binge1.png" alt="">
           </router-link>
-          <router-link to="/project/ufcify" class="project">
+          <router-link to="/projects/ufcify" class="project">
             <div class="mask">
               <h3>Ufcify</h3>
               <span>Dec. 2018</span>
             </div>
             <img src="../assets/ufcify/ufcify.png" alt="">
           </router-link>
-          <router-link to="/project/tempeo" class="project">
+          <router-link to="/projects/tempeo" class="project">
             <div class="mask">
               <h3>Tempeo</h3>
               <span>Sept. 2018</span>

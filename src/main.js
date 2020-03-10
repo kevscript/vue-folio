@@ -17,13 +17,13 @@ Vue.config.productionTip = false
 const router = new VueRouter({
   routes: [
     { path: '/', component: HomePage },
-    { path: '/project/sniplib', component: SniplibPage },
-    { path: '/project/tripeo', component: TripeoPage },
-    { path: '/project/bingewatcher', component: BingePage },
-    { path: '/project/youtheme', component: YouthemePage },
-    { path: '/project/ufcify', component: UfcifyPage },
-    { path: '/project/tempeo', component: TempeoPage },
-    { path: '*', component: HomePage }
+    { path: '/projects/sniplib', component: SniplibPage },
+    { path: '/projects/tripeo', component: TripeoPage },
+    { path: '/projects/bingewatcher', component: BingePage },
+    { path: '/projects/youtheme', component: YouthemePage },
+    { path: '/projects/ufcify', component: UfcifyPage },
+    { path: '/projects/tempeo', component: TempeoPage },
+    { path: '*', redirect: '/' }
   ],
   mode: 'history',
   scrollBehavior(to, from, savedPosition) {
