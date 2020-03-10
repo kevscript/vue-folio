@@ -77,7 +77,7 @@
           <router-link to="/projects/youtheme" class="project">
             <div class="mask">
               <h3>Youtheme</h3>
-              <span>Dec. 2019</span>
+              <span>Jan. 2020</span>
             </div>
             <img src="../assets/youtheme/youtheme.jpg" alt="">
           </router-link>
@@ -147,11 +147,12 @@
           </div>
         </div>
       </section>
+      <section class="footer">
+        <p>kevinostafinski@gmail.com</p>
+        <p>Kevin Ostafinski - Portfolio</p>
+        <p>made with <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a> :)</p>
+      </section>
     </div>
-    <section class="footer">
-      <p>kevinostafinski@gmail.com</p>
-      <p>Kevin Ostafinski - Portfolio</p>
-    </section>
   </div>
 </template>
 
