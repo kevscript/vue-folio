@@ -27,11 +27,9 @@ const router = new VueRouter({
   ],
   mode: 'history',
   scrollBehavior() {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve({ x: 0, y: 0 })
-      }, 300)
-    })
+    if ('scrollRestoration' in history) { 
+      history.scrollRestoration = 'manual'
+    }
   }
 })
 
