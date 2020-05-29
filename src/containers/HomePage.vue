@@ -148,9 +148,9 @@
         </div>
       </section>
       <section class="footer">
-        <p>kevinostafinski@gmail.com</p>
-        <p>Kevin Ostafinski - Portfolio</p>
-        <p>made with <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a> :)</p>
+        <p id="footer-1">kevinostafinski@gmail.com</p>
+        <p id="footer-2">Kevin Ostafinski - Portfolio</p>
+        <p id="footer-3">made with <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a> :)</p>
       </section>
     </div>
   </div>
