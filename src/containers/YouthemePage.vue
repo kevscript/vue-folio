@@ -1,6 +1,6 @@
 <template>
   <ProjectPage 
-    prev="tempeo" 
+    prev="gonerank" 
     next="sniplib"
     demo="https://youtheme.herokuapp.com/" 
     repo="https://github.com/kevscript/youtheme" 

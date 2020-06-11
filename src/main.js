@@ -3,6 +3,7 @@ import App from './App.vue';
 import VueRouter from 'vue-router';
 
 import HomePage from './containers/HomePage';
+import GonerankPage from './containers/GonerankPage';
 import TripeoPage from './containers/TripeoPage';
 import TempeoPage from './containers/TempeoPage';
 import BingePage from './containers/BingePage';
@@ -17,6 +18,7 @@ Vue.config.productionTip = false
 const router = new VueRouter({
   routes: [
     { path: '/', component: HomePage },
+    { path: '/projects/gonerank', component: GonerankPage },
     { path: '/projects/sniplib', component: SniplibPage },
     { path: '/projects/tripeo', component: TripeoPage },
     { path: '/projects/bingewatcher', component: BingePage },
