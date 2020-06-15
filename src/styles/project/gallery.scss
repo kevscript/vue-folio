@@ -1,9 +1,8 @@
 .gallery {
-
-  padding-top: 70px;
   width: 50%;
   margin-left: 50%;
   display: flex;
+  margin-top: 100px;
 
   .gallery-list {
     width: 100%;
@@ -43,7 +42,7 @@
       overflow: hidden;
       display: flex;
       justify-content: center;
-      align-items: flex-start;
+      align-items: flex-end;
 
       img {
         width: 100%;

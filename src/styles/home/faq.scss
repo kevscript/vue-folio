@@ -1,10 +1,21 @@
 .faq {
-  margin-bottom: 100px;
+  margin: 150px 0;
 
   .faq-title {
     @include h2;
     margin-bottom: 50px;
-    color: $clr-primary;
+    position: relative;
+    color: $clr-secondary;
+
+    &::before {
+      content: "Questions";
+      display: block;
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      color: $clr-primary;
+      z-index: -1;
+    }
   }
 
   .faq-list {
@@ -18,7 +29,8 @@
   }
 
   .faq-item {
-    max-width: 380px;
+    width: 500px;
+    max-width: 90%;
 
     @media only screen and (min-width: 720px) {
       margin: 0 50px 50px 0;
@@ -29,6 +41,28 @@
       font-weight: 700;
       margin-bottom: 10px;
       color: $clr-primary;
+    }
+
+    a {
+      text-decoration: none;
+      color: $clr-secondary;
+      font-weight: 700;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .faq-title {
+      font-size: 5rem;
+    }
+
+    .faq-list {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    .faq-title {
+      font-size: 7rem;
     }
   }
 }

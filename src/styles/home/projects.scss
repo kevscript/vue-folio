@@ -1,9 +1,21 @@
 .projects {
-  margin-bottom: 100px;
+  margin: 150px 0;
 
   .projects-title {
     @include h2;
     margin-bottom: 50px;
+    position: relative;
+    color: $clr-secondary;
+
+    &::before {
+      content: "Projects";
+      display: block;
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      color: $clr-primary;
+      z-index: -1;
+    }
   }
 
 
@@ -33,17 +45,20 @@
       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
       .mask {
-        opacity: 0.82;
+        opacity: 0.8;
         transition: all 0.3s;
+        background: $clr-secondary;
 
         h3 {
           opacity: 1;
           transition: all 0.3s;
+          color: $clr-primary;
         }
         
         span {
           opacity: 1;
           transition: all 0.3s;
+          color: $clr-primary;
         }
       }
     }
@@ -57,7 +72,7 @@
       width: 100%;
       height: 100%;
       background: rgba(0, 19, 71, 1);
-      opacity: 0;
+      opacity: 0.8;
       transition: all 0.3s;
       display: flex;
       justify-content: center;
@@ -69,7 +84,7 @@
         position: relative;
         font-size: 50px;
         font-weight: 600;
-        opacity: 0;
+        opacity: 1;
         transition: all 0.3s;
         color: #fff;
       }
@@ -78,7 +93,7 @@
         z-index: 999;
         position: relative;
         font-size: 25px;
-        opacity: 0;
+        opacity: 1;
         transition: all 0.3s;
         color: #fff;
       }
@@ -95,17 +110,26 @@
   @media (max-width: 900px) {
     .project {
       .mask {
-        opacity: 0.8;
         h3 {
           font-size: 30px;
-          opacity: 1;
         }
   
         span {
           font-size: 16px;
-          opacity: 1;
         }
       }
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .projects-title {
+      font-size: 5rem;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    .projects-title {
+      font-size: 7rem;
     }
   }
 }

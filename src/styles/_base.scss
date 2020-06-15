@@ -3,39 +3,38 @@
 
 // COLORS
 $clr-primary: rgba(0, 19, 71, 1);
-$clr-dark: rgba(51, 51, 51, 1);
+$clr-dark: #222;
 $clr-white: rgba(255, 255, 255, 1);
 $clr-grey: rgba(112, 112, 112, 1);
 $clr-secondary: rgba(46, 229, 157, 1);
 
 // FONT MIXINS
 @mixin h1 {
-  font-family: 'Lobster', cursive;
-  font-size: 120px;
+  font-family: "Lobster", cursive;
+  font-size: 8rem;
   color: $clr-primary;
 }
 
 @mixin h2 {
-  font-family: 'Lobster', cursive;
-  font-size: 60px;
-  color: $clr-primary;
+  font-family: "Lobster", cursive;
+  font-size: 4rem;
+  color: $clr-secondary;
 }
 
 @mixin h3 {
-  font-family: 'Lobster', cursive;
-  font-size: 42px;
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  font-size: 3rem;
   color: $clr-primary;
 }
 
 @mixin h4 {
-  font-family: 'Source Sans Pro', 'Roboto', sans-serif;
-  font-size: 28px;
-  color: $clr-dark;
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  font-size: 2rem;
+  color: $clr-primary;
 }
 
 @mixin text {
-  font-family: 'Source Sans Pro', 'Roboto', sans-serif;
-  font-size: 16px;
-  color: $clr-dark;
-  line-height: 1.5;
+  font-family: "Source Sans Pro", "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: $clr-primary;
 }

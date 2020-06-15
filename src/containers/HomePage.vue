@@ -21,17 +21,19 @@
       </section>
 
       <section class="hero">
-        <h1 class="hero-title">Hello</h1>
+        <div class="hero-titles">
+          <h1 class="hero-title">Hey,</h1>
+        </div>
         <h4 class="hero-subtitle">
           I'm Kevin, a <span>front-end</span> developer based in Paris.<br />
-          Adding value through user-friendly interfaces.
+          I enjoy showcasing your cool ideas to the world.
         </h4>
       </section>
 
       <section class="what">
         <div class="what-flex">
           <div class="what-content">
-            <h2 class="what-title">What I do</h2>
+            <h2 class="what-title">Skills</h2>
             <p>
               Front-End developer proficient with the Javascript ecosystem,
               currently specializing in <span>React</span>.
@@ -51,7 +53,7 @@
           <div class="what-skills">
             <li>
               <span>Frontend</span>
-              <p>React / ES6 / Vue</p>
+              <p>React / ES6+ / Vue</p>
             </li>
             <li>
               <span>Backend</span>
@@ -67,7 +69,7 @@
             </li>
             <li>
               <span>Styling</span>
-              <p>CSS / Sass / styled-components</p>
+              <p>Sass / styled-components</p>
             </li>
             <li>
               <span>Testing</span>
@@ -125,7 +127,7 @@
           </router-link>
           <router-link to="/projects/ufcify" class="project">
             <div class="mask">
-              <h3>Ufcify</h3>
+              <h3>UFCify</h3>
               <span>Dec. 2018</span>
             </div>
             <img src="../assets/ufcify/ufcify.png" alt="" />
@@ -141,7 +143,7 @@
       </section>
 
       <section class="faq">
-        <h2 class="faq-title">Faq</h2>
+        <h2 class="faq-title">Questions</h2>
         <div class="faq-list">
           <div class="faq-item">
             <span>Q. Are you currently available?</span>
@@ -184,24 +186,22 @@
             </p>
           </div>
           <div class="faq-item">
-            <span>Q. What other tech do you want to learn next?</span>
+            <span>Q. What are your tech goals right now?</span>
             <p>
-              I'm focused on expanding my knowledge of the React ecosystem, but
-              I'd like to explore Vue, GraphQL and Headless CMSs in the near
-              future.
+              Building more interactive and better animated UIs, while also expanding my backend skills to become a more complete fullstack developer.
             </p>
           </div>
         </div>
       </section>
-      <section class="footer">
-        <p id="footer-1">kevinostafinski@gmail.com</p>
-        <p id="footer-2">Kevin Ostafinski - Portfolio</p>
-        <p id="footer-3">
-          made with
-          <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a> :)
-        </p>
-      </section>
     </div>
+    <section class="footer">
+      <p id="footer-1">kevinostafinski@gmail.com</p>
+      <p id="footer-2">Kevin Ostafinski - Portfolio</p>
+      <p id="footer-3">
+        made with
+        <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a> :)
+      </p>
+    </section>
   </div>
 </template>
 

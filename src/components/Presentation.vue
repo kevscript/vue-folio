@@ -1,7 +1,7 @@
 <template>
   <section class="presentation">
     <span>{{ date }}</span>
-    <h2 class="presentation-title">{{ name }}</h2>
+    <h2 class="presentation-title" :data-title="name">{{ name }}</h2>
     <p class="presentation-subtitle">{{ skills.join(' / ') }}</p>
     <div class="presentation-content">
       <p v-for="(para, index) in content" :key="index">

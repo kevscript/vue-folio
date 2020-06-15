@@ -1,23 +1,55 @@
 .hero {
   width: 100%;
-  padding-top: 150px;
-  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 0;
 
-  .hero-title {
-    @include h1;
+  .hero-titles {
+    .hero-title {
+      @include h1;
+      position: relative;
+      color: $clr-secondary;
+
+      &::before {
+        content: "Hey,";
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        color: $clr-primary;
+        z-index: -1;
+      }
+    }
   }
 
   .hero-subtitle {
-    @include h4;
-
+    @include text;
+    color: $clr-primary;
     span {
       font-weight: 700;
-      color: $clr-primary;
     }
   }
 
   @media only screen and (min-width: 500px) {
-    min-height: 60vh;
-    margin-bottom: 100px;
+    min-height: 80vh;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    min-height: calc(100vh - 80px);
+    .hero-titles {
+      .hero-title {
+        font-size: 15rem;
+      }
+    }
+    .hero-subtitle {
+      @include h4;
+    }
+  }
+
+  @media only screen and (min-width: 1550px) {
+    .hero-subtitle {
+      @include h3;
+    }
   }
 }

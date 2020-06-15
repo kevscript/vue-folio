@@ -1,16 +1,32 @@
 .what {
-  margin-bottom: 100px;
+  margin: 150px 0;
 
   .what-title {
     @include h2;
-    margin-bottom: 32px;
+    position: relative;
+    color: $clr-secondary;
+    margin-bottom: 2rem;
+
+    &::before {
+      content: "Skills";
+      display: block;
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      color: $clr-primary;
+      z-index: -1;
+    }
   }
 
   .what-content {
     margin-bottom: 100px;
 
     p {
-      margin-bottom: 22px;
+      max-width: 600px;
+
+      &:not(:last-child) {
+        margin-bottom: 1.5rem;
+      }
 
       span {
         font-weight: 700;
@@ -25,21 +41,40 @@
     flex-wrap: wrap;
 
     li {
-      margin: 0 40px 20px 0;
       width: 235px;
       list-style: none;
+      margin: 2rem 1rem 0rem 0;
 
       span {
         font-weight: 700;
         text-transform: uppercase;
-        line-height: 2;
         color: $clr-primary;
       }
     }
   }
 
   @media only screen and (min-width: 1200px) {
-  
+    .what-title {
+      font-size: 5rem;
+    }
+
+    .what-content {
+      font-size: 1.5rem;
+    }
+
+    .what-skills {
+      font-size: 1.5rem;
+
+      li {
+        width: 350px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    .what-title {
+      font-size: 7rem;
+    }
 
     .what-flex {
       display: flex;
@@ -47,7 +82,7 @@
     }
 
     .what-content {
-      width: 50%;
+      width: 60%;
     }
 
     .what-skills {
