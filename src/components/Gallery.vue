@@ -1,9 +1,13 @@
 <template>
   <section class="gallery">
     <div class="gallery-list">
-      <div class="item-container" v-for="(image, index) in images" :key="index">
+      <div
+        :class="isPhone ? `item-container-phone` : `item-container`"
+        v-for="(image, index) in images"
+        :key="index"
+      >
         <div class="gallery-item">
-          <img :src="require(`@/assets/${image}`)" alt="">
+          <img :src="require(`@/assets/${image}`)" alt="" />
         </div>
       </div>
     </div>
@@ -12,9 +16,10 @@
 
 <script>
 export default {
-  name: 'Gallery',
+  name: "Gallery",
   props: {
-    images: Array
-  }
-}
+    images: Array,
+    isPhone: Boolean
+  },
+};
 </script>

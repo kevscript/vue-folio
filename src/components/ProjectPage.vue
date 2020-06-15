@@ -5,7 +5,7 @@
     
     <div class="flex-container">
       <Presentation :name="name" :demo="demo" :repo="repo" :skills="skills" :content="content" :date="date" />
-      <Gallery :images="images" />
+      <Gallery :images="images" :isPhone="isPhone" />
     </div>
 
   </div>
@@ -32,7 +32,8 @@
       skills: Array,
       content: Array,
       images: Array,
-      date: String
+      date: String,
+      isPhone: Boolean
     }
   }
 </script>

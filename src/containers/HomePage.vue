@@ -26,7 +26,7 @@
         </div>
         <h4 class="hero-subtitle">
           I'm Kevin, a <span>front-end</span> developer based in Paris.<br />
-          I enjoy showcasing your cool ideas to the world.
+          I enjoy showcasing cool ideas to the world.
         </h4>
       </section>
 
